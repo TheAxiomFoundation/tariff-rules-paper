@@ -6,7 +6,7 @@ date-format: iso
 kicker: working paper
 revision: "1"
 status: |
-  Certification status: the five-line witness slice is conformant (computed) against the Yale reference; the schedule-scale spine, compositions, and incidence tables pass their generation gates but hold no certificate; closed/executable/exercised verdicts are not yet produced for this program. Not certified.
+  Certification status (certificate `us-tariff-duty`, local branch `tariff/certification-arc`): all four premises are computed — conformant true (full-schedule bulk path on a Yale-defined trajectory quotient, 9,913,304 evaluated cells, zero unexplained mismatches under thirteen receipted disposition classes); exercised true (strict audited bridges; entry-level facts and four action-family flags held constant, disclosed); executable true (pinned engine reproduces certified values exactly); closed false (the closure ledger names the pending encoding: 9802 partial value, section 338, non-metal section 232, the 2018 China lists, historical vintages, and four membership-encoded but unfed action families). The certificate is decidable and its verdict is no: not certified, with its burndown named. Two classes remain axiom-attributed open: the forced-labor and Brazil section 301 entry feeds.
 bibliography: research/references.bib
 link-citations: true
 format:
