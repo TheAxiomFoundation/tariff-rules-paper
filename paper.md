@@ -1,12 +1,12 @@
 ---
 title: "Executable tariff law: deterministic derivations and conformance for the 2025–26 trade shock"
-author: "[Author slots — working draft, local only]"
+author: "AUTHORS: TBD (Max)"
 date: 2026-08-16
 date-format: iso
 kicker: working paper
 revision: "1"
 status: |
-  Certification status (certificate `us-tariff-duty`, local branch `tariff/certification-arc`): all four premises are computed and the certificate is decidable; its verdict is no. Conformant is false: the full-schedule comparison (a Yale-defined trajectory quotient, 9,913,304 evaluated cells) has zero unexplained mismatches under thirteen receipted disposition classes, but 1,592,236 units in two classes — the forced-labor and Brazil section 301 entry feeds — are axiom-attributed and open, so the leg does not count as clean. Exercised is true (strict audited bridges; entry-level facts and four action-family flags held constant, disclosed). Executable is true (the pinned engine reproduces certified values exactly). Closed is false (the closure ledger names the pending encoding: 9802 partial value, section 338, non-metal section 232, the 2018 China lists, historical vintages, and the unfed action families). Not certified, with its burndown named.
+  Certification status (certificate `us-tariff-duty`, axiom-oracles main (110b4dd6c / re-minted at ea88758d2)): all four premises are computed and the certificate is decidable; its verdict is no. Conformant is false: the full-schedule comparison (a Yale-defined trajectory quotient, 9,913,304 evaluated cells) has zero unexplained mismatches under thirteen receipted disposition classes, but 1,592,236 units in two classes — the forced-labor and Brazil section 301 entry feeds — are axiom-attributed and open, so the leg does not count as clean. Exercised is true (strict audited bridges; entry-level facts and four action-family flags held constant, disclosed). Executable is true (the pinned engine reproduces certified values exactly). Closed is false (the closure ledger names the pending encoding: 9802 partial value, section 338, non-metal section 232, the 2018 China lists, historical vintages, and the unfed action families). Not certified, with its burndown named.
 bibliography: research/references.bib
 link-citations: true
 format:
@@ -794,7 +794,7 @@ rulespec-us `f062088f`. Generated compositions: `747d54f5`.
 Action-incidence tables: `956a5474`; decoupled compositions and steel
 component: `96d5e7c1`. The gate evidence archive remains in the project
 lane pending archival release. No archival release accompanies this
-local draft.
+working paper.
 
 **AI-use disclosure.** The encodings, generators, tests, and reviews
 described in Section 5 were produced by AI agents under the stated

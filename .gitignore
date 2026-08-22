@@ -1,2 +1,10 @@
 /.quarto/
 **/*.quarto_ipynb
+/_freeze/
+/.cache/
+*.aux
+*.log
+*.out
+*.tex
+build/*
+!build/paper.pdf
