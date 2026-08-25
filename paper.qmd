@@ -697,9 +697,16 @@ values rather than errors.
 The generated schedule spine, compositions, and incidence tables pass
 the generation gates reported here. Those gates establish grounded
 generation, identity against the witness where tested, differential
-agreement, mutation sensitivity, and byte reproducibility. They do not
-constitute a certificate, and closed, executable, and exercised
-verdicts have not been produced for this program. Specific and compound
+agreement, mutation sensitivity, and byte reproducibility. Generation
+gates alone do not constitute a certificate. Since this manuscript's
+data snapshot, the certification campaign has computed all four
+premises for the program over a schedule-wide comparison (the
+trajectory quotient of 9,913,304 evaluated cells described in the
+certification status note above); the resulting certificate is
+decidable and its verdict is no, with the remaining encoding named
+inside the artifact. The five-line conformance result reported in this
+section remains confined to the witness slice and the encoded temporal
+window. Specific and compound
 duties, content-value bases, quota state, entry-specific exceptions,
 collection-date semantics, and sub-day cutoffs remain outside the
 function described here. Weighted rate analysis is delegated to the
@@ -804,7 +811,7 @@ authoring agents from a primary-source-verified fact base and revised
 through hostile, round-diff, red-team, and fresh-eyes referee passes.
 The human author is responsible for all claims.
 
-# Tables (wire into sections at final assembly)
+# Appendix: tables
 
 ## Table 1 — Conformance scoreboard at the pinned snapshot (§3)
 
