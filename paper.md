@@ -1,6 +1,6 @@
 ---
 title: "Executable tariff law: deterministic derivations and conformance for the 2025–26 trade shock"
-author: "AUTHORS: TBD (Max)"
+author: "Max Ghenis"
 date: 2026-08-16
 date-format: iso
 kicker: working paper
