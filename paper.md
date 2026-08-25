@@ -1,7 +1,7 @@
 ---
 title: "Executable tariff law: deterministic derivations and conformance for the 2025–26 trade shock"
 author: "Max Ghenis"
-date: 2026-08-16
+date: 2026-08-25
 date-format: iso
 kicker: working paper
 revision: "3"
@@ -157,7 +157,7 @@ Section 1 is encoded as a rule, not as the removal of one:
 
 ```yaml
 
-# source: rulespec-us us/policies/usitc/us-tariff-duty/overlays/ieepa/termination.yaml@dbf09f44 (excerpt)
+# source: overlays/ieepa/termination.yaml@dbf09f44 (rulespec-us, excerpt)
 - name: terminated_ieepa_additional_ad_valorem_duty_rate
   kind: parameter
   dtype: Rate
@@ -347,12 +347,14 @@ declared semantic difference — and a *tripwired exclusion* removes a
 reference construct from scope entirely behind a machine-checked guard
 that fails the build if the excluded construct's footprint moves.
 
-The comparison totals below come from the pinned report
-`axiom-oracles@dc1da3af067c50fa7138458faf3703b4b9efd7cb:reports/axiom-yale-us-tariff-panel-all-2026-08-03.json`;
-the disposition entry, class, and footprint claims come from the
-authoritative source
-`axiom-oracles@dc1da3af067c50fa7138458faf3703b4b9efd7cb:dispositions/us-tariff-panel.yaml`,
-updated 2026-08-03. The reference is pinned at `c4307e51`, the encoding
+The comparison totals below come from the pinned report, and the
+disposition entry, class, and footprint claims from the authoritative
+source, both in `axiom-oracles` at commit `dc1da3af`:
+
+- report: `reports/axiom-yale-us-tariff-panel-all-2026-08-03.json`
+- dispositions: `dispositions/us-tariff-panel.yaml` (updated 2026-08-03)
+
+The reference is pinned at `c4307e51`, the encoding
 at `dbf09f44`, and the engine at `ffd82132`:
 
 - The reference panel materializes 277,303,920 rows; the reconciled
@@ -786,8 +788,8 @@ manifests, comparison harness, conformance report, and authoritative
 disposition source. The Yale reference is pinned at `c4307e51`.
 
 The authoritative disposition evidence is
-`axiom-oracles@dc1da3af067c50fa7138458faf3703b4b9efd7cb:dispositions/us-tariff-panel.yaml`:
-30 entries covering 15,200 units. Its public mirror at the same pin is
+`dispositions/us-tariff-panel.yaml` in `axiom-oracles` at commit
+`dc1da3af`: 30 entries covering 15,200 units. Its public mirror at the same pin is
 stale and is not evidence for this paper; regeneration plus a
 synchronization tripwire remains an archival prerequisite. Exact
 component-review prompts, model versions and settings, adjudication
@@ -817,11 +819,10 @@ The human author is responsible for all claims.
 
 ## Table 1 — Conformance scoreboard at the pinned snapshot (§3)
 
-Sources: comparison report
-`axiom-oracles@dc1da3af067c50fa7138458faf3703b4b9efd7cb:reports/axiom-yale-us-tariff-panel-all-2026-08-03.json`;
-authoritative dispositions
-`axiom-oracles@dc1da3af067c50fa7138458faf3703b4b9efd7cb:dispositions/us-tariff-panel.yaml`;
-reference Budget-Lab-Yale/tariff-rate-tracker @ `c4307e51`.
+Sources, all in `axiom-oracles` at commit `dc1da3af`: comparison
+report `reports/axiom-yale-us-tariff-panel-all-2026-08-03.json`;
+authoritative dispositions `dispositions/us-tariff-panel.yaml`;
+reference Budget-Lab-Yale/tariff-rate-tracker at `c4307e51`.
 
 | Quantity | Value |
 |---|---|
