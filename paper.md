@@ -4,7 +4,7 @@ author: "Max Ghenis"
 date: 2026-08-16
 date-format: iso
 kicker: working paper
-revision: "1"
+revision: "3"
 status: |
   Certification status (certificate `us-tariff-duty`, axiom-oracles main (110b4dd6c / re-minted at ea88758d2)): all four premises are computed and the certificate is decidable; its verdict is no. Conformant is false: the full-schedule comparison (a Yale-defined trajectory quotient, 9,913,304 evaluated cells) has zero unexplained mismatches under thirteen receipted disposition classes, but 1,592,236 units in two classes — the forced-labor and Brazil section 301 entry feeds — are axiom-attributed and open, so the leg does not count as clean. Exercised is true (strict audited bridges; entry-level facts and four action-family flags held constant, disclosed). Executable is true (the pinned engine reproduces certified values exactly). Closed is false (the closure ledger names the pending encoding: 9802 partial value, section 338, non-metal section 232, the 2018 China lists, historical vintages, and the unfed action families). Not certified, with its burndown named.
 bibliography: research/references.bib
@@ -29,8 +29,10 @@ and remain maintainer-unacknowledged. Deterministic generators extend
 the schedule spine to 13,790 rated lines, 100 per-chapter compositions,
 and 25 grounded action-membership tables under identity, differential,
 mutation, and byte-reproducibility gates. These schedule-scale artifacts
-pass their generation gates but hold no certificate, and the witness
-composition still lacks a fail-closed off-slice guard. The companion
+pass their generation gates; the program's machine-checked certificate
+is decidable and its verdict is no, with the remaining encoding named
+inside it, and the witness composition still lacks a fail-closed
+off-slice guard. The companion
 paper reports the weighted-rate analysis [@tariff_rates_companion].
 
 # Why 2026 broke tariff lookup
